@@ -1,0 +1,17 @@
+{
+	"name": "custom-commands-revolt-bot",
+	"version": "0.1.0",
+	"description": "Revolt Bot made by Axol's Software that allows you to create simple custom commands without coding.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "Axol's Software",
+	"license": "MIT",
+	"dependencies": {
+		"revolt.js": "6.0.20",
+		"axios": "^1.5.1",
+		"nodemon": "^3.0.1",
+	}
+}

@@ -1,0 +1,5 @@
+Add words and phrases you do not want the bot to say here
+and seperate each entry with a new line
+like this....
+
+This is your filter.
