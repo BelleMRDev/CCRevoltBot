@@ -1,4 +1,7 @@
 {
 	"revoltbottoken": "",
-	"revoltbotprefix": "!"
+	"revoltbotprefix": "!",
+	"launchmode": "0",
+	"discordbottoken": "",
+	"discordbotprefix": "!"
 }

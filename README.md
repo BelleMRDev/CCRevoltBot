@@ -4,6 +4,8 @@ Custom Commands Revolt bot is a simple Revolt bot source code made by Axol's Sof
 
 The custom commands feature has been taken from my Axol bot and instead of the Apache License, this code is licensed under the MIT license.
 
+This source code now includes a Discord bot build you can use.
+
 ## Setup Guide
 
 Before setting up this bot, here are the minimum requirements to run this bot on your server
@@ -14,13 +16,16 @@ Before setting up this bot, here are the minimum requirements to run this bot on
 Assuming your server or computer meets the minimum requirements, you can now start setting up the bot. Below is the steps to setup the bot.
 
 1. Copy/Fork this source code to your computer or server from your hosting provider
-2. Create a Revolt.chat bot at https://app.revolt.chat/settings/bots and copy the bot's token
+2. Create a Revolt.chat bot at https://app.revolt.chat/settings/bots and copy the bot's token / Create a Discord bot at discord.com/developers/applications
 3. Open the config.json file and fill in everything it asks for
 
 ```json
 {
 	"revoltbottoken": "", #Your Revolt.chat bot token
-	"revoltbotprefix": "!" #Your bot prefix the bot will respond to
+	"revoltbotprefix": "!" #Your bot prefix the Revolt bot will respond to
+	"launchmode": "0", #Can use the following values: 0 = Revolt bot only, 1 = Discord bot only, 2 = Revolt and Discord bot
+	"discordbottoken": "", #Your Discord bot token
+	"discordbotprefix": "!" #Your bot prefix the Discord bot will respond to
 }
 ```
 
@@ -43,8 +48,11 @@ Supported Values:
 - {server_id} = The ID of the server
 - {server_name} = The server name
 - {server_owner} = The ID of the server owner
+- {server_mc} = The member count of the server (Discord ONLY)
+- {server_bc} = The boost count of the server (Discord ONLY)
 - {author_id} = The ID of the executing command author.
+- {author_name} = The username of the executing command author
 
 ## Links
 
-[Revolt Server](https://rvlt.gg/WJmNxmkv) - [Developers Youtube](https://www.youtube.com/channel/UCCYCRAt1srptO3dc7eeN4Yw)
+[Revolt Server](https://rvlt.gg/WJmNxmkv) - [Discord Server](https://discord.gg/hrUV9aq3p2) - [Developers Youtube](https://www.youtube.com/channel/UCCYCRAt1srptO3dc7eeN4Yw)
